@@ -7,7 +7,7 @@ public class Main {
     public static void main(String a[]) {
         Scanner sc = new Scanner(System.in);
 
-        // Задание 1
+        // Задание 1. Четное или нечетное число
 
         System.out.print("Введите число: ");
         int num = sc.nextInt();
@@ -18,7 +18,7 @@ public class Main {
             System.out.print("Оно нечетное.");
         }
 
-        // Задание 2
+        // Задание 2. Минимальное из трех чисел
 
         System.out.print("\nВведите три числа: ");
         int nums[] = new int [3];
@@ -28,14 +28,14 @@ public class Main {
         }
         System.out.print("Минимальное число: " + Arrays.stream(nums).min().getAsInt());
 
-        // Задание 3
+        // Задание 3. Таблица умножения
 
         System.out.print("\nТаблица умножения на 5: ");
         for (int i = 1; i < 11; i++){
             System.out.print("5 * " + i + " = " + 5*i + "\n");
         }
 
-        // Задание 4
+        // Задание 4. Сумма чисел от 1 до N
 
         System.out.print("Введите число N: ");
         int num2 = sc.nextInt();
@@ -44,7 +44,7 @@ public class Main {
             System.out.print(i + "\n");
         }
 
-        // Задание 5
+        // Задание 5. Число Фибоначчи
 
         System.out.print("Введите число N: ");
         int num3 = sc.nextInt();
@@ -59,7 +59,7 @@ public class Main {
         }
         System.out.print(Arrays.toString(nums1));
 
-        // Задание 6
+        // Задание 6. Проверка простого числа
 
         System.out.print("\nВведите число: ");
         int num4 = sc.nextInt();
@@ -79,7 +79,7 @@ public class Main {
         if (nums2[2] == -1)
             System.out.print("Число простое.\n");
 
-        // Задание 7
+        // Задание 7. Обратный порядок чисел
 
         System.out.println("Введите число N: ");
         int num5 = sc.nextInt();
@@ -87,7 +87,7 @@ public class Main {
             System.out.print(i + "\n");
         }
 
-        // Задание 8
+        // Задание 8. Сумма четных чисел
 
         System.out.print("Введите два числа: ");
         int num6 = sc.nextInt();
@@ -99,7 +99,7 @@ public class Main {
             }
         }
 
-        // Задание 9
+        // Задание 9. Реверс строки
 
         System.out.print("Введите строку: ");
         String str = sc.next();
@@ -109,13 +109,13 @@ public class Main {
         }
         System.out.println(str1);
 
-        // Задание 10
+        // Задание 10. Количество цифр в числе
 
         System.out.print("\nВведите число: ");
         String str2 = sc.next();
         System.out.println("Число цифр в числе: " + str2.length());
 
-        // Задание 11
+        // Задание 11. Факториал числа
 
         System.out.print("\nВведите число: ");
         int num8 = sc.nextInt();
@@ -125,7 +125,7 @@ public class Main {
         }
         System.out.println("Факториал числа: " + factorial);
 
-        // Задание 12
+        // Задание 12. Сумма цифр числа
 
         System.out.print("\nВведите число: ");
         String str3 = sc.next();
@@ -135,7 +135,7 @@ public class Main {
         }
         System.out.print("Сумма цифр в числе: " + result);
 
-        // Задание 13
+        // Задание 13. Палиндром
 
         System.out.print("\nВведите число: ");
         String str4 = sc.next();
@@ -146,7 +146,7 @@ public class Main {
             System.out.print("Это не палиндром.");
         }
 
-        // Задание 14
+        // Задание 14. Найти максимальное число в массиве
 
         System.out.print("\nВведите размер массива: ");
         int num9 = sc.nextInt();
@@ -161,7 +161,7 @@ public class Main {
         }
         System.out.print("Максимальное число: " + max);
 
-        // Задание 15
+        // Задание 15. Сумма всех элементов массива
 
         System.out.print("\nВведите размер массива: ");
         int num10 = sc.nextInt();
@@ -174,7 +174,7 @@ public class Main {
         }
         System.out.print("Сумма чисел: " + sum2);
 
-        // Задание 16
+        // Задание 16. Количество положительных и отрицательных чисел
 
         System.out.print("\nВведите размер массива: ");
         int nums11 = sc.nextInt();
@@ -193,7 +193,7 @@ public class Main {
         }
         System.out.print("Количество положительных чисел: " + pos + ", Количество отричательных чисел: " + neg);
 
-        // Задание 17
+        // Задание 17. Простые числа в диапазоне
 
         System.out.print("Введите первое число A: ");
         int num12 = sc.nextInt();
@@ -212,7 +212,7 @@ public class Main {
             System.out.println(i);
         }
 
-        // Задание 18
+        // Задание 18. Подсчет гласных и согласных в строке
 
         System.out.print("Введите строку: ");
         String str5 = sc.nextLine();
@@ -232,7 +232,7 @@ public class Main {
         System.out.println("Количество гласных: " + vowels);
         System.out.println("Количество согласных: " + consonants);
 
-        // Задание 19
+        // Задание 19. Перестановка слов в строке
 
         System.out.print("Введите строку: ");
         String str6 = sc.nextLine();
@@ -243,7 +243,7 @@ public class Main {
         }
         System.out.println("Перевернутая строка: " + reversed.trim());
 
-        // Задание 20
+        // Задание 20. Число Армстронга
 
         System.out.print("Введите число: ");
         int num14 = sc.nextInt();
